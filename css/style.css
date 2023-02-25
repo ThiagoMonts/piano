@@ -118,6 +118,6 @@ body {
     height: 148px;
 }
 
-.disable-keys span {
+.disabled-keys span {
     opacity: 0;
 }
