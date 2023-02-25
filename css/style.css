@@ -52,6 +52,7 @@ body {
 
 .switcher--active {
     background-color: #006eff;
+    justify-content: flex-end;
 }
 
 .checkbox__label {
@@ -80,6 +81,7 @@ body {
 .key span {
     font-weight: 600;
     position: absolute;
+    transition-duration: 300ms;
 }
 
 .key {
@@ -114,4 +116,8 @@ body {
     background: linear-gradient(#222, black);
     border-bottom: none;
     height: 148px;
+}
+
+.disable-keys span {
+    opacity: 0;
 }
